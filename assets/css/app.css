@@ -1,0 +1,39 @@
+*{
+    font-family: Niramit;
+}
+.rounded__1 {
+    border-radius: 10px;
+}
+body {
+    font-size: 0.8rem;
+    z-index: 1;
+}
+.card__img {
+    margin-top: -6rem;
+}
+.cursor__pointer {
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: var(--bs-gray);
+}
+.card__logo {
+    width: 30px;
+}
+
+@media screen and (max-width: 576px){
+    .card__img {
+        margin-top: -4rem;
+    }
+}
+.start-screen {
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    background: #ffffff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
